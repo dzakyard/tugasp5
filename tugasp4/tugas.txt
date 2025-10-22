@@ -56,7 +56,7 @@ Setelah login berhasil, tampilkan menu CLI berikut:
 
 User dapat memilih menu dengan memasukkan angka 1–3.
 Berikan pesan kesalahan jika user memilih angka selain 1-3.
-Gunakan percabangan if/elif/else untuk menentukan aksi sesuai pilihan.
+Gunakan percabangan if/elif/else untuk menentukan aksi sesuai pilihan..
 
 
 📋 Penjelasan Tiap Menu:

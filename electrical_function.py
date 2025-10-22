@@ -21,11 +21,11 @@ if kwh <= 0:
     
 # jika kwh 1 - 100
 elif kwh <= 100:
-  tarif = kwh * 1000
+  kwh_100(kwh)
 
 # jika kwh 1-300
 elif kwh <= 300:
-  tarif = 100000 + (kwh - 100) * 1500
+  kwh_300(kwh)
 
 # jika kwh lebih dari 300
 else:

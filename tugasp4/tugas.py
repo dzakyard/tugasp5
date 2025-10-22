@@ -46,8 +46,11 @@ if cek_login == True:
         tugas_kedua = float(input("Masukkan nilai tugas kedua [1-100] : "))
         tugas_ketiga = float(input("Masukkan nilai tugas tigas [1-100] : "))
         
-        nilai = hitungRataRata(tugas_pertama, tugas_kedua, tugas_ketiga)
-        print(f"Nilai rata rata kamu adalah {nilai}")
+        if 1 <= tugas_pertama <= 100 and 1 <= tugas_kedua <= 100 and 1 <= tugas_ketiga <= 100:
+            nilai = hitungRataRata(tugas_pertama, tugas_kedua, tugas_ketiga)
+            print(f"Nilai rata rata kamu adalah {nilai}")
+        else:
+            print("Nilai tidak valid")
 
     # jika pilihan 3 pesan terimakasih
     elif pilihan == "3":
